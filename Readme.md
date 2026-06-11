@@ -14,19 +14,9 @@ input | ./lolcat
 
 ```
 
-## Examples
-Colorize a file:
-```
-./lolcat README.md
-```
-Pipe from another command:
-```
-echo "hello world" | ./lolcat
-```
-Adjust speed and seed:
-```
-./lolcat -s 0.5 -S 42 file.txt
-```
+## Sample Output
+<img width="1905" height="358" alt="image" src="https://github.com/user-attachments/assets/47dd57ab-92ee-4025-bc58-72fd771d9cdf" />
+
 
 ## Notes
 - Behavior and supported flags are determined by the code in `main.c`. Use `./lolcat --help` to see the exact options implemented.
